@@ -1,0 +1,40 @@
+﻿@font-face {
+    font-family: Mont;
+    src: url("Mont-HeavyDEMO.otf") format("opentype");
+}
+
+
+
+body
+{
+
+background-color:#292238;
+    font-family:Mont;
+}
+
+
+
+
+.navbar_custom {
+background-color:#15121c;
+color:white;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar_custom .navbar-nav .nav-link {
+    color: white;
+    font-size:20px;
+        font-family:Mont;
+}
+
+
+h1{
+    color:lime;
+}
+
+.navbar_custom h1{
+color:white;
+    padding:15px;
+        font-family:Mont;
+}
+
