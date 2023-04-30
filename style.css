@@ -28,8 +28,7 @@ lime;
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-
-
+ 
 
     body {
         margin: 0;
@@ -47,6 +46,7 @@ lime;
 
     .col-3 {
         width: 25%;
+         overflow:auto;
     }
 
     .col-4 {
@@ -59,6 +59,7 @@ lime;
 
     .col-6 {
         width: 50%;
+        overflow:auto;
     }
 
     .col-7 {
@@ -83,6 +84,7 @@ lime;
 
     .col-12 {
         width: 100%;
+         overflow:auto;
     }
 
 }
@@ -234,3 +236,4 @@ a:hover{
        font-size:40px;
     }
 } 
+
