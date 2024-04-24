@@ -17,8 +17,10 @@ lime;
 /** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
 * {
     box-sizing: border-box;
-
-
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
 }
 
 /* For mobile phones: */
@@ -137,6 +139,16 @@ body {
         font-family: Mont;
         
     }
+    .navbar_custom h1 {
+
+    padding:10px;
+    }
+
+    .navbar_custom .navbar-toggler-icon {
+    background-image: url("Media/menu.png");
+    }
+
+}
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
@@ -156,14 +168,8 @@ h1.special {
     margin-bottom:50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-}
 
-.navbar_custom h1 {
-  
- 
-    font-family: Mont;
 
-}
 
 
 p.special
