@@ -195,6 +195,16 @@ p.special2
    word-spacing: 8px;
 
 }
+p.special3 {
+    color: white;
+    font-size: 18px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    text-shadow: 3px 3px 3px black;
+    line-height: 1.8;
+    word-spacing: 8px;
+    background-color: #15121c;
+}
 
 
 
