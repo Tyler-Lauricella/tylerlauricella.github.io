@@ -209,9 +209,10 @@ a {
 
 
     a:hover {
-        animation-fill-mode: forwards;
+     
         animation-name: fontGrow2;
         animation-duration: 2s;
+        animation-fill-mode: forwards;
         animation-iteration-count: 1;
    
     }
