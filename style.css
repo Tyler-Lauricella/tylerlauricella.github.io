@@ -196,7 +196,8 @@ p.special2
 
 }
 p.special3 {
-    color: white;
+    padding:25px;
+    color: lime;
     font-size: 18px;
     animation-name: fadeIn;
     animation-duration: 1s;
@@ -204,7 +205,6 @@ p.special3 {
     line-height: 1.8;
     word-spacing: 8px;
     background-color: #15121c;
-padding:25px;
 }
 
 
