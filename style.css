@@ -212,6 +212,7 @@ a {
         animation-fill-mode: forwards;
         animation-name: fontGrow2;
         animation-duration: 2s;
+        animation-iteration-count: 1;
    
     }
 
