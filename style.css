@@ -30,7 +30,7 @@ lime;
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
- 
+
 
     body {
         margin: 0;
@@ -48,7 +48,7 @@ lime;
 
     .col-3 {
         width: 25%;
-         overflow:auto;
+        overflow: auto;
     }
 
     .col-4 {
@@ -61,7 +61,7 @@ lime;
 
     .col-6 {
         width: 50%;
-        overflow:auto;
+        overflow: auto;
     }
 
     .col-7 {
@@ -86,16 +86,15 @@ lime;
 
     .col-12 {
         width: 100%;
-         overflow:auto;
+        overflow: auto;
     }
-
 }
 
 [class*="col-"] {
     float: left;
     padding-left: 50px;
     padding-top: 30px;
-    margin-right:-30px;
+    margin-right: -30px;
 }
 
 .row::after {
@@ -119,7 +118,6 @@ img {
 body {
     background-color: #292238;
     font-family: Mont;
-
 }
 
 
@@ -129,7 +127,6 @@ body {
     background-color: #15121c;
     color: white;
     padding: 40px;
-    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -137,15 +134,14 @@ body {
         color: white;
         font-size: 20px;
         font-family: Mont;
-        
     }
-    .navbar_custom h1 {
 
-    padding:10px;
+    .navbar_custom h1 {
+        padding: 10px;
     }
 
     .navbar_custom .navbar-toggler-icon {
-    background-image: url("menu.png");
+        background-image: url("menu.png");
     }
 
 }
@@ -155,7 +151,6 @@ body {
     color: lime;
     animation-name: fontGrow;
     animation-duration: 3s;
-   
 }
 
 h1.special {
@@ -164,34 +159,30 @@ h1.special {
     animation-name: fadeIn;
     animation-duration: 1s;
     background-color: #15121c;
-    padding:25px;
-    margin-bottom:50px;
+    padding: 25px;
+    margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
-p.special
-{
-    color:white;
-    font-size:25px;
-     animation-name: fadeIn;
+p.special {
+    color: white;
+    font-size: 25px;
+    animation-name: fadeIn;
     animation-duration: 1s;
-  text-shadow: 5px 5px 5px black;
-  line-height: 1.8;
-   word-spacing: 10px;
-
+    text-shadow: 5px 5px 5px black;
+    line-height: 1.8;
+    word-spacing: 10px;
 }
 
-p.special2
-{
-    color:white;
-    font-size:18px;
-     animation-name: fadeIn;
+p.special2 {
+    color: white;
+    font-size: 18px;
+    animation-name: fadeIn;
     animation-duration: 1s;
-  text-shadow: 3px 3px 3px black;
-  line-height: 1.8;
-   word-spacing: 8px;
-
+    text-shadow: 3px 3px 3px black;
+    line-height: 1.8;
+    word-spacing: 8px;
 }
 
 p.special3 {
@@ -210,17 +201,17 @@ p.special3 {
 
 
 
-a{
-color: lime;
-text-decoration: none;
- text-shadow: 0px 0px 0px black;
+a {
+    color: lime;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px black;
 }
 
 
     a:hover {
         animation-name: fontGrow2;
         animation-duration: 1s;
-        
+        animation-iteration-count: infinite;
     }
 
 @keyframes fadeIn {
@@ -236,22 +227,22 @@ text-decoration: none;
 
 @keyframes fontGrow {
     0% {
-        font-size:20px;
+        font-size: 20px;
     }
 
 
     100% {
-       font-size:25px;
+        font-size: 25px;
     }
-} 
+}
+
 @keyframes fontGrow2 {
     0% {
-        font-size:25px;
+        font-size: 25px;
     }
 
 
     100% {
-       font-size:40px;
+        font-size: 40px;
     }
-} 
-
+}
