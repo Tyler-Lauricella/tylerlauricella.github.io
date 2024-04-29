@@ -210,7 +210,7 @@ a {
 
     a:hover {
      
-        animation-name: fontGrow2;
+        animation-name: fontGrow;
         animation-duration: 2s;
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
