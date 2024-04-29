@@ -209,9 +209,10 @@ a {
 
 
     a:hover {
+        animation-fill-mode: forwards;
         animation-name: fontGrow2;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
+        animation-duration: 2s;
+   
     }
 
 @keyframes fadeIn {
