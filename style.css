@@ -208,7 +208,7 @@ text-decoration: none;
 a:hover{
     
     animation-name: fontGrow2;
-    animation-duration: 12s;
+    animation-duration: 1s;
 }
 
 @keyframes fadeIn {
