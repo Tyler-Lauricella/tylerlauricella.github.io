@@ -217,11 +217,14 @@ text-decoration: none;
 }
 
 
-a:hover{
-    
-    animation-name: fontGrow2;
-    animation-duration: 1s;
-}
+    a {
+        animation-name: fontGrow2, 1.2s linear infinite;
+        animation-play-state: paused;
+    }
+
+        a:hover {
+            animation-play-state: running;
+        }
 
 @keyframes fadeIn {
     0% {
