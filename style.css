@@ -24,228 +24,286 @@ lime;
 }
 
 /* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
+
+@media only screen and (max-width: 900px) {
+    [class*="col-"] {
+        margin-left: -5px;
+      
+    }
+  
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+    /** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+    .overflow {
+        overflow-x: auto;
+    }
 
 
     body {
-        margin: 0;
-    }
-
-
-
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-        overflow: auto;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-        overflow: auto;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-        overflow: auto;
-    }
-}
-
-[class*="col-"] {
-    float: left;
-    padding-left: 50px;
-    padding-top: 30px;
-    margin-right: -30px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
-.overflow {
-    overflow-x: auto;
-}
-
-
-body {
-    background-color: #292238;
-    font-family: Mont;
-}
-
-
-
-
-.navbar_custom {
-    background-color: #15121c;
-    color: white;
-    padding: 40px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-    .navbar_custom .navbar-nav .nav-link {
-        color: white;
-        font-size: 20px;
+        background-color: #292238;
         font-family: Mont;
     }
 
-    .navbar_custom h1 {
-        padding: 10px;
+
+    .responsive {
+        width: 100%;
+        height: auto;
     }
 
-    .navbar_custom .navbar-toggler-icon {
-        background-image: url("menu.png");
+    .navbar_custom {
+        background-color: #15121c;
+        color: white;
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
-}
+        .navbar_custom .navbar-nav .nav-link {
+            color: white;
+            font-size: 20px;
+            font-family: Mont;
+        }
 
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-    color: lime;
-    animation-name: fontGrow;
-    animation-duration: 3s;
-}
+        .navbar_custom h1 {
+            padding: 10px;
+        }
 
-h1.special {
-    color: lime;
-    font-weight: bold;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    background-color: #15121c;
-    padding: 25px;
-    margin-bottom: 50px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+        .navbar_custom .navbar-toggler-icon {
+            background-image: url("menu.png");
+        }
 
-
-p.special {
-    color: white;
-    font-size: 25px;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    text-shadow: 5px 5px 5px black;
-    line-height: 1.8;
-    word-spacing: 10px;
-}
-
-p.special2 {
-    color: white;
-    font-size: 18px;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    text-shadow: 3px 3px 3px black;
-    line-height: 1.8;
-    word-spacing: 8px;
-}
-
-p.special3 {
-    color: white;
-    font-size: 18px;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    text-shadow: 3px 3px 3px black;
-    line-height: 1.8;
-    word-spacing: 8px;
-    background-color: #15121c;
-    padding: 25px;
-    margin-bottom: 50px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-
-
-a {
-    color: lime;
-    text-decoration: none;
-    text-shadow: 0px 0px 0px black;
-}
-
-
-    a:hover {
-     
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item:hover .nav-link {
+        color: lime;
         animation-name: fontGrow;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-   
+        animation-duration: 3s;
     }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
+    h1.special {
+        color: lime;
+        font-weight: bold;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        background-color: #15121c;
+        padding: 25px;
+        margin-bottom: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
 
-    100% {
-        opacity: 1;
+    p.special {
+        color: white;
+        font-size: 25px;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        text-shadow: 5px 5px 5px black;
+        line-height: 1.8;
+        word-spacing: 10px;
+        padding:10px;
+      
     }
+
+    p.special2 {
+        color: white;
+        font-size: 18px;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        text-shadow: 3px 3px 3px black;
+        line-height: 1.8;
+        word-spacing: 8px;
+    }
+
+    p.special3 {
+        color: white;
+        font-size: 12px;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        text-shadow: 3px 3px 3px black;
+        line-height: 1.8;
+        word-spacing: 8px;
+        background-color: #15121c;
+        padding: 25px;
+        margin-bottom: 50px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+
+    a {
+        color: lime;
+        text-decoration: none;
+        text-shadow: 0px 0px 0px black;
+    }
+
+
+  
+
+
 }
 
-@keyframes fontGrow {
-    0% {
-        font-size: 20px;
+
+@media only screen and (min-width: 1200px) {
+
+    [class*="col-"] {
+        float: left;
+        padding-left: 50px;
+        padding-top: 30px;
+        margin-right: -30px;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 
 
-    100% {
+    /** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+    .overflow {
+        overflow-x: auto;
+    }
+
+
+    body {
+        background-color: #292238;
+        font-family: Mont;
+    }
+
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar_custom {
+        background-color: #15121c;
+        color: white;
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+        .navbar_custom .navbar-nav .nav-link {
+            color: white;
+            font-size: 20px;
+            font-family: Mont;
+        }
+
+        .navbar_custom h1 {
+            padding: 10px;
+        }
+
+        .navbar_custom .navbar-toggler-icon {
+            background-image: url("menu.png");
+        }
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item:hover .nav-link {
+        color: lime;
+        animation-name: fontGrow;
+        animation-duration: 3s;
+    }
+
+    h1.special {
+        color: lime;
+        font-weight: bold;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        background-color: #15121c;
+        padding: 25px;
+        margin-bottom: 50px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+    p.special {
+        color: white;
         font-size: 25px;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        text-shadow: 5px 5px 5px black;
+        line-height: 1.8;
+        word-spacing: 10px;
     }
+
+    p.special2 {
+        color: white;
+        font-size: 18px;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        text-shadow: 3px 3px 3px black;
+        line-height: 1.8;
+        word-spacing: 8px;
+    }
+
+    p.special3 {
+        color: white;
+        font-size: 18px;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        text-shadow: 3px 3px 3px black;
+        line-height: 1.8;
+        word-spacing: 8px;
+        background-color: #15121c;
+        padding: 25px;
+        margin-bottom: 50px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+
+    a {
+        color: lime;
+        text-decoration: none;
+        text-shadow: 0px 0px 0px black;
+    }
+
+
+        a:hover {
+            animation-name: fontGrow;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+        }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fontGrow {
+        0% {
+            font-size: 20px;
+        }
+
+
+        100% {
+            font-size: 25px;
+        }
+    }
+
+    @keyframes fontGrow2 {
+        0% {
+            font-size: 25px;
+        }
+
+
+        100% {
+            font-size: 40px;
+        }
+    }
+
 }
 
-@keyframes fontGrow2 {
-    0% {
-        font-size: 25px;
-    }
 
-
-    100% {
-        font-size: 40px;
-    }
 }
