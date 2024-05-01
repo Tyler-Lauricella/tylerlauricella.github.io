@@ -10,7 +10,9 @@ lime;
 
 @font-face {
     font-family: Mont;
-    src: url("Mont-HeavyDEMO.otf") format("opentype"); /*font family*/
+    src: url("Mont-HeavyDEMO.otf") format("opentype"); 
+    font-display: swap;
+
 }
 
 
