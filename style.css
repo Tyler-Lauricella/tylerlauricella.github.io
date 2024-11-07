@@ -165,6 +165,7 @@ lime;
         display: table;
     }
 
+    /** Styles for normal screen sizes **/
 
     /** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
     .overflow {
@@ -207,7 +208,7 @@ lime;
     .navbar-nav .nav-item:hover .nav-link {
         color: lime;
         animation-name: fontGrow;
-        animation-duration: 3s;
+        animation-duration: .2s;
     }
 
     h1.special {
@@ -267,7 +268,7 @@ lime;
 
         a:hover {
             animation-name: fontGrow;
-            animation-duration: 2s;
+            animation-duration: .2s;
             animation-fill-mode: forwards;
             animation-iteration-count: 1;
         }
