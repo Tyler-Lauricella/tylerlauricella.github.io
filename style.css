@@ -83,7 +83,7 @@ lime;
     .navbar-nav .nav-item:hover .nav-link {
         color: lime;
         animation-name: fontGrow;
-        animation-duration: 3s;
+        animation-duration: 1s;
     }
 
     h1.special {
