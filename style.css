@@ -4,6 +4,11 @@ Color Palette
 white;
 #292238;
 lime;
+
+
+https://tyler-lauricella.github.io/tylerlauricella.github.io/Portfolio.html
+
+
 */
 
 
@@ -72,7 +77,7 @@ lime;
         }
 
         .navbar_custom h1 {
-            padding: 10px;
+            padding: 15px;
         }
 
         .navbar_custom .navbar-toggler-icon {
@@ -87,7 +92,7 @@ lime;
     }
 
     h1.special {
-        color: lime;
+        color: blue;
         font-weight: bold;
         animation-name: fadeIn;
         animation-duration: 1s;
@@ -199,6 +204,7 @@ lime;
 
         .navbar_custom h1 {
             padding: 10px;
+            margin-right:30px;
         }
 
         .navbar_custom .navbar-toggler-icon {
